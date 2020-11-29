@@ -118,6 +118,10 @@ ul {
     font-weight: bold;
 }
 
+.navigation .logo-font{
+    font-size: 1.2rem;
+}
+
 /* header */
 
 .hero {
@@ -191,6 +195,11 @@ ul {
 /* Mobile devices */
 
 @media (max-width: 500px) {
+
+    .navigation .nav-brand {
+        text-align: center;
+    }
+
     .list-item-inline{
         padding: 0;
     }
@@ -204,7 +213,7 @@ ul {
         padding: 0.5rem;
     }
 
-    .hero-img{
+    .hero .hero-img{
         max-width: 100%;
     }
 
